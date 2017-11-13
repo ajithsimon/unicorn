@@ -435,7 +435,7 @@ header{margin:0;}
     width: 29%;
     float: left;
 }
-.our-pholosophy-cont1 h2{
+.our-pholosophy-cont1 .h2{
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
@@ -443,13 +443,13 @@ header{margin:0;}
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #02296a;
 }
 .our-pholosophy-cont1 hr{
     border-top: 2px solid #02296a;
     background-color: #02296a;
     margin-top: 5px;
-    width: 68%;
-    float: left;
 }
 /*.our-pholosophy-cont1 h2::after{
   position: absolute;
@@ -481,13 +481,13 @@ header{margin:0;}
 }
 
 /*What we do*/
-.what-v-do-cont{width: 63%;
+.what-v-do-cont{width: 60%;
                 float: right;
                 margin-left: 16.6%;
                 padding-right: 0;}
 .our-what-v-do{margin-top: 150px;}
 .what-v-do-title{margin: 0;display: inline-block;float: none;}
-.what-v-do-title h2{
+.what-v-do-title .h2{
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
@@ -496,6 +496,8 @@ header{margin:0;}
     text-align: left;
     color: #ffffff;
     text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #02296a;
 }
 .what-v-do-title hr{border-top: 2px solid #02296a;
                     background-color: #02296a;margin-top: 5px;;}
@@ -560,7 +562,7 @@ header{margin:0;}
     float: left;
     min-height: 400px;
 }
-.our-people-cont1 h2{
+.our-people-cont1 .h2{
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
@@ -568,6 +570,8 @@ header{margin:0;}
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #02296a;
 }
 .our-people-cont1 hr{border-top: 2px solid #02296a;
                      background-color: #02296a;margin-top: 5px;
@@ -616,7 +620,7 @@ float: left}
     float: left;
     min-height: 400px;
 }
-.career-cont1 h2{
+.career-cont1 .h2{
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
@@ -624,6 +628,8 @@ float: left}
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #02296a;
 }
 .career-cont1 hr{border-top: 2px solid #02296a;
                  background-color: #02296a;margin-top: 5px;
@@ -793,8 +799,8 @@ float: left}
 .thnk .cpy{position: fixed;bottom: 0;text-align: center;left: 0;right: 0;}
 /*Media Query*/
 @media all and (max-width:1680px) {
-    .we-are1 h1, .our-pholosophy-cont1 h2, .what-v-do-title h2, .our-people-cont1 h2, 
-    .career-cont1 h2, .contact h2{font-size: 42px;} 
+    .we-are1 h1, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, .our-people-cont1 .h2, 
+    .career-cont1 .h2, .contact .h2{font-size: 42px;} 
     .our-pholosophy-cont2 h2{font-size: 42px;}
     .scroll-dwn{margin-top: 32px;}
     .we-are1 hr{margin-right: 33%;}
@@ -812,8 +818,8 @@ float: left}
     .our-pholosophy-cont1 h2, .what-v-do-title h2, 
     .our-people-cont1 h2, .career-cont1 h2, .contact h2{font-size: 40px;}
     .our-pholosophy-cont2 h2{font-size: 40px;}
-    .we-are1 h1, .our-pholosophy-cont1 h2, .what-v-do-title h2, .our-people-cont1 h2, 
-    .career-cont1 h2, .contact h2{font-size: 38px;} 
+    .we-are1 h1, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, .our-people-cont1 .h2, 
+    .career-cont1 .h2, .contact .h2{font-size: 38px;} 
     .our-pholosophy-cont2 h2{font-size: 38px;}
     .cust-exp-cont2 h3{font-size: 32px;}
     .we-are1 hr{margin-right: 40%;}
@@ -829,8 +835,8 @@ float: left}
     .digi-advs img{transform: scale(.8);}
     .our-people{padding: 60px 0;}
     .contact{padding: 0px 0 60px 0;}
-    .we-are1 h1, .our-pholosophy-cont1 h2, .what-v-do-title h2, .our-people-cont1 h2, 
-    .career-cont1 h2, .contact h2{font-size: 36px;}
+    .we-are1 h1, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, .our-people-cont1 .h2, 
+    .career-cont1 .h2, .contact h2{font-size: 36px;}
     .we-are1 hr{margin-right: 36%;}
     .our-pholosophy-cont1 hr{margin-right: 12%;}
     .our-people-cont1 hr{margin-right: 40%;}
@@ -844,8 +850,8 @@ float: left}
 @media all and (max-width:1366px) {
     .logo{width: 40%;}
     .navigation{width: 60%;}
-    .we-are1 h1, .our-pholosophy-cont1 h2, .what-v-do-title h2, .our-people-cont1 h2, 
-    .career-cont1 h2, .contact h2{font-size: 34px;}
+    .we-are1 h1, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, .our-people-cont1 .h2, 
+    .career-cont1 .h2, .contact .h2{font-size: 34px;}
     .we-are2 h2{font-size: 34px;}
     .we-are2 h2, .cust-exp-cont2 h3,{font-size: 36px;}
     .career-cont2 p, .our-people-cont2 p, .our-pholosophy-cont2 p{font-size: 22px;}
@@ -861,8 +867,8 @@ float: left}
     .navigation{width: 65%;}
     .our-people{padding: 60px 0;}
     .submt button{padding: 12px 46px;font-size: 20px;}
-    .we-are1 h1, .our-pholosophy-cont1 h2, .what-v-do-title h2, 
-    .our-people-cont1 h2, .career-cont1 h2, .contact h2{font-size: 30px;}
+    .we-are1 h1, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, 
+    .our-people-cont1 .h2, .career-cont1 .h2, .contact .h2{font-size: 30px;}
     .career-cont2 p, .our-people-cont2 p, .our-pholosophy-cont2 p{font-size: 20px;}
     .cust-exp-cont2 h3, .our-pholosophy-cont2 h2{font-size: 28px;}
     .we-are2 a, .our-people-cont2 a{padding: 14px 26px;font-size: 22px;}
@@ -884,7 +890,7 @@ float: left}
     .logo{width: 25%}
     .nav>li>a{padding: 10px 11px;font-size: 16px;}
     header.shrink .navbar-inverse .navbar-collapse{margin: 17px 0px 0px 0px;}
-    .we-are1 h1, .our-pholosophy-cont1 h2, .what-v-do-title h2, .our-people-cont1 h2, .career-cont1 h2, .contact h2{font-size: 28px;}
+    .we-are1 h1, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, .our-people-cont1 .h2, .career-cont1 .h2, .contact .h2{font-size: 28px;}
     .what-v-do-cont{margin-left: 15.8%;}
     .cust-exp-cont{width: 30%;}
     .cust-exp-cont2{width: 60%;}
@@ -910,14 +916,14 @@ float: left}
     .navigation{width: 100%;}
     .nav>li>a{padding: 10px 11px;font-size: 19px;}
     .ipad-me{margin: 0;}  
-    .we-are1 h1, .our-pholosophy-cont1 h2, .what-v-do-title h2, 
-    .our-people-cont1 h2, .career-cont1 h2, .contact h2{font-size: 26px;}
+    .we-are1 h1, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, 
+    .our-people-cont1 .h2, .career-cont1 .h2, .contact .h2{font-size: 26px;}
     .we-are2 h2{font-size: 22px;}
     .we-are2 p{font-size: 18px;}
     .we-are2 a, .our-people-cont2 a{padding: 9px 16px;font-size: 16px;}
     .we-are2 p{margin-bottom: 30px;}
-    .we-are1 h1, .our-pholosophy-cont1 h2, .what-v-do-title h2, 
-    .our-people-cont1 h2, .career-cont1 h2, .contact h2{font-size: 21px;}
+    .we-are1 h1, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, 
+    .our-people-cont1 .h2, .career-cont1 .h2, .contact .h2{font-size: 21px;}
     .career-cont2 p, .our-people-cont2 p, .our-pholosophy-cont2 p{font-size: 18px;}
     .cust-exp-cont2 h3, .our-pholosophy-cont2 h2{font-size: 24px;}
     .our-pholosophy-cont1{min-height: 227px;}
@@ -945,8 +951,8 @@ float: left}
 
 }
 @media all and (max-width:767px) {
-    .we-are1 h1, .we-are2 h2, .our-pholosophy-cont1 h2, .what-v-do-title h2, 
-    .our-people-cont1 h2, .career-cont1 h2, .contact h2{font-size: 14px;}
+    .we-are1 h1, .we-are2 h2, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, 
+    .our-people-cont1 .h2, .career-cont1 .h2, .contact h2{font-size: 14px;}
     .we-are2 p{font-size: 16px;line-height: 18px;}
     .j-group img{transform: scale(.5);}
     .our-pholosophy-cont2 p{font-size: 16px;margin-bottom: 10px;line-height: 27px;}
@@ -962,8 +968,8 @@ float: left}
     .address-img img{visibility: hidden;}
     .we-are1 h1{line-height: 20px;}
     .our-pholosophy-cont1, .our-people-cont1, .career-cont1{min-height: auto}
-    .we-are1 h1::after, .our-pholosophy-cont1 h2::after, .what-v-do-title h2::after, 
-    .our-people-cont1 h2::after, .career-cont1 h2::after{bottom: -10px;width: 30px;}
+    .we-are1 h1::after, .our-pholosophy-cont1 .h2::after, .what-v-do-title .h2::after, 
+    .our-people-cont1 .h2::after, .career-cont1 .h2::after{bottom: -10px;width: 30px;}
     .our-people-cont2 p{margin-top: 0;}
     .career-cont2 h5{font-size: 16px;}
     .career-cont2 h5{line-height: 1.2; margin-top: 10px;}
@@ -1000,7 +1006,7 @@ float: left}
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{margin-top: 50px;z-index: 999999;}
     header{margin: 0;}
     hr{display: none;}
-    .we-are1 h1, .we-are2 h2, .our-pholosophy-cont1 h2, .what-v-do-title h2, .our-people-cont1 h2, .career-cont1 h2, .contact h2{margin-bottom: 30px;}
+    .we-are1 h1, .we-are2 h2, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, .our-people-cont1 .h2, .career-cont1 .h2, .contact .h2{margin-bottom: 30px;}
     .cust-exp-cont2 p{font-size: 16px;margin-bottom: 20px;line-height: 21px;}
     .cust-exp-cont2{padding-left: 0;margin-bottom: 30px;}
     .our-what-v-do{margin-top: 40px;text-align: center;}
@@ -1064,7 +1070,7 @@ float: left}
     .form{width: 100%;}
     .copy-right h5{width: 100%; font-size: 14px;}
     hr{display: none;}
-    .we-are1 h1, .our-pholosophy-cont1 h2, .what-v-do-title h2, .our-people-cont1 h2, .career-cont1 h2, .contact h2{margin-bottom: 30px; font-size: 20px;}
+    .we-are1 h1, .our-pholosophy-cont1 .h2, .what-v-do-title .h2, .our-people-cont1 .h2, .career-cont1 .h2, .contact .h2{margin-bottom: 30px; font-size: 20px; border-bottom: none}
     .we-are2 h2{font-size: 20px}
     .container{width: 85%}
     .we-are-main{margin-top: 10px;}
