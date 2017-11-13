@@ -315,13 +315,13 @@ header{margin:0;}
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
     letter-spacing: 0.02em;
-    font-size: 45px;
+    font-size: 42px;
     color: #fff;
-    line-height: 55px;
+    line-height: 47px;
     text-transform: uppercase;
 
 }
-.we-are1 hr{background-color: #02296a;margin-right: 29%;border-top: 1px solid #02296a;}
+.we-are1 hr{background-color: #02296a;margin-right: 29%;border-top: 2px solid #02296a;}
 /*.we-are1 h1::after{
   position: absolute;
   content: '';
@@ -339,7 +339,7 @@ header{margin:0;}
 }
 .we-are2 h2{
     font-family: 'HelveticaNeueLTCom-Lt';
-    font-size: 48px;
+    font-size: 44px;
     text-align: left;
     color: #ffffff;
     text-shadow: 0 103px 69px rgba(0, 0, 0, 0.53);
@@ -439,13 +439,13 @@ header{margin:0;}
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
-    font-size: 45px;
+    font-size: 42px;
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
 }
 .our-pholosophy-cont1 hr{
-    border-top: 1px solid #02296a;
+    border-top: 2px solid #02296a;
     background-color: #02296a;
 }
 /*.our-pholosophy-cont1 h2::after{
@@ -488,13 +488,13 @@ header{margin:0;}
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
-    font-size: 45px;
+    font-size: 42px;
     font-weight: bold;
     text-align: left;
     color: #ffffff;
     text-transform: uppercase;
 }
-.what-v-do-title hr{border-top: 1px solid #02296a;
+.what-v-do-title hr{border-top: 2px solid #02296a;
                     background-color: #02296a;}
 /*.what-v-do-title h2::after{
   position: absolute;
@@ -561,12 +561,12 @@ header{margin:0;}
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
-    font-size: 45px;
+    font-size: 42px;
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
 }
-.our-people-cont1 hr{border-top: 1px solid #02296a;
+.our-people-cont1 hr{border-top: 2px solid #02296a;
                      background-color: #02296a;margin-right: 33%;}
 /*.our-people-cont1 h2::after{
   position: absolute;
@@ -615,12 +615,12 @@ header{margin:0;}
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
-    font-size: 45px;
+    font-size: 42px;
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
 }
-.career-cont1 hr{border-top: 1px solid #02296a;
+.career-cont1 hr{border-top: 2px solid #02296a;
                  background-color: #02296a;margin-right: 50%;}
 /*.career-cont1 h2::after{
   position: absolute;
@@ -731,15 +731,14 @@ header{margin:0;}
 
 /*Contact US*/
 .address{
-    width: 50%;
-    float: left;
+    text-align: center;
+    position: relative;
 }
 .address h3{
     font-family: 'HelveticaNeueLTCom-Lt';
     font-size: 22px;
     font-weight: 500;
     line-height: 1.25;
-    text-align: left;
     color: #fff;
     margin: 10px 0;
 }
@@ -748,7 +747,6 @@ header{margin:0;}
     font-family: 'HelveticaNeueLTCom-Lt';
     font-size: 16px;
     line-height: 26px;
-    text-align: left;
     color: #ffffff;
     margin: 0 0 10px 0;
 }
@@ -757,8 +755,8 @@ header{margin:0;}
     color: #fff;
     text-decoration: underline !important;
 }
-.address-img{width: 50%; float: left;}
-.address-img img{float: right;margin-top: 135px;}
+.address-img{position: absolute;bottom: 0;right: 0}
+.address-img img{float: right;}
 
 .copy-right{
     clear: both;
