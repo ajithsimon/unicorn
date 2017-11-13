@@ -321,7 +321,7 @@ header{margin:0;}
     text-transform: uppercase;
 
 }
-.we-are1 hr{background-color: #02296a;margin-right: 29%;border-top: 2px solid #02296a;}
+.we-are1 hr{background-color: #02296a;margin-right: 29%;border-top: 2px solid #02296a;margin-top: 5px;}
 /*.we-are1 h1::after{
   position: absolute;
   content: '';
@@ -439,7 +439,7 @@ header{margin:0;}
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
-    font-size: 42px;
+    font-size: 30px;
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
@@ -447,6 +447,9 @@ header{margin:0;}
 .our-pholosophy-cont1 hr{
     border-top: 2px solid #02296a;
     background-color: #02296a;
+    margin-top: 5px;
+    width: 68%;
+    float: left;
 }
 /*.our-pholosophy-cont1 h2::after{
   position: absolute;
@@ -478,7 +481,7 @@ header{margin:0;}
 }
 
 /*What we do*/
-.what-v-do-cont{width: 61%;
+.what-v-do-cont{width: 63%;
                 float: right;
                 margin-left: 16.6%;
                 padding-right: 0;}
@@ -488,14 +491,14 @@ header{margin:0;}
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
-    font-size: 42px;
+    font-size: 30px;
     font-weight: bold;
     text-align: left;
     color: #ffffff;
     text-transform: uppercase;
 }
 .what-v-do-title hr{border-top: 2px solid #02296a;
-                    background-color: #02296a;}
+                    background-color: #02296a;margin-top: 5px;;}
 /*.what-v-do-title h2::after{
   position: absolute;
   content: '';
@@ -561,13 +564,15 @@ header{margin:0;}
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
-    font-size: 42px;
+    font-size: 30px;
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
 }
 .our-people-cont1 hr{border-top: 2px solid #02296a;
-                     background-color: #02296a;margin-right: 33%;}
+                     background-color: #02296a;margin-top: 5px;
+width: 47%;
+float: left}
 /*.our-people-cont1 h2::after{
   position: absolute;
   content: '';
@@ -615,13 +620,15 @@ header{margin:0;}
     position: relative;
     font-family: 'HelveticaNeueLT-Roman';
     font-weight: 600;
-    font-size: 42px;
+    font-size: 30px;
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
 }
 .career-cont1 hr{border-top: 2px solid #02296a;
-                 background-color: #02296a;margin-right: 50%;}
+                 background-color: #02296a;margin-top: 5px;
+width: 35%;
+float: left}
 /*.career-cont1 h2::after{
   position: absolute;
   content: '';
