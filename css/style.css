@@ -1059,7 +1059,8 @@ header{margin:0;}
     .form{width: 100%;}
     .copy-right h5{width: 100%; font-size: 14px;}
     hr{display: none;}
-    .we-are1 h1, .we-are2 h2, .our-pholosophy-cont1 h2, .what-v-do-title h2, .our-people-cont1 h2, .career-cont1 h2, .contact h2{margin-bottom: 30px; font-size: 18px;}
+    .we-are1 h1, .our-pholosophy-cont1 h2, .what-v-do-title h2, .our-people-cont1 h2, .career-cont1 h2, .contact h2{margin-bottom: 30px; font-size: 20px;}
+    .we-are2 h2{font-size: 20px}
     .container{width: 85%}
     .we-are-main{margin-top: 10px;}
 
