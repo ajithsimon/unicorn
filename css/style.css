@@ -270,7 +270,12 @@ header.shrink .navbar-nav {
   header{margin:0;}
   .logo img{
     max-width: 100%;
-    float: left;
+  }
+  .logo a{
+      color: white;
+      font-size: 14px;
+      font-weight: 100;
+      letter-spacing: 1.5px;
   }
   .logo{width:280px;float:left;margin-top: 16px;}
   .navigation{
